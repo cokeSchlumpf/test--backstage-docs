@@ -5,3 +5,5 @@ A collection is a group of files stored in a hierachical structure. Files and fo
 ## Collection ^`CLASS`^
 
 Provides methods to manage a collection data asset.
+
+::: lorem_ipsum.main
