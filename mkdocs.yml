@@ -3,6 +3,8 @@ site_description: 'Documentation'
 
 nav:
   - Intro: sdk/collections.md
+  - Mars Utils: sdk/mars_utils.ipynb
 
 plugins:
   - techdocs-core
+  - mkdocs-jupyter

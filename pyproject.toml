@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "test-backstage-docs"
+version = "0.1.0"
+description = "Some test"
+authors = ["Michael Wellner <michael.wellner@gmail.com>"]
+license = "WTFPL"
+readme = "README.md"
+packages = [{include = "test_backstage_docs"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pygments = "2.10"
+poethepoet = "^0.18.1"
+
+
+[tool.poetry.group.dev.dependencies]
+mkdocs = "^1.4.2"
+mkdocs-techdocs-core = "^1.1.7"
+mkdocstrings-python = "^0.8.3"
+mkdocs-jupyter = "0.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks]
+docs = "mkdocs serve"
