@@ -4,7 +4,7 @@ metadata:
   name: test
   description: lorem ipsum.
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/janwithb/backstage-test
+    backstage.io/techdocs-ref: url:https://github.com/cokeSchlumpf/test--backstage-docs
   tags:
     - python
 spec:
