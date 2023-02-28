@@ -22,3 +22,5 @@ plugins:
             show_root_full_path: false
             show_signature_annotations: true
             docstring_section_style: table
+
+extra_css: [main.efefef42.min.css]
