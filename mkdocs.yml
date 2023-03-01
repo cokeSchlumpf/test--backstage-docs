@@ -7,7 +7,8 @@ nav:
 
 plugins:
   - techdocs-core
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      include_source: true
   - mkdocstrings:
       default_handler: python
       handlers:
